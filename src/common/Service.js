@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export class Service {
+export default class Service {
   constructor({ resourceType }) {
     this.resourceType = resourceType
   }

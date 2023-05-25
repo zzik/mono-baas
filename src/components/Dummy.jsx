@@ -1,5 +1,5 @@
 import React from 'react'
-import {Service} from '../common/Service'
+import Service from '../common/Service'
 
 const Dummy = () => {
     const instance = new Service({resourceType:'vehiclemake'})
