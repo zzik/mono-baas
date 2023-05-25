@@ -1,0 +1,4 @@
+Za dohvaćanje podataka sa servera u praksi pravimo servise koje onda koristimo unutar storeova (ali nikada direktno unutar page komponente).
+To su klase koje sadrže samo metode za komunikaciju sa serverom.
+Trebaš napraviti servis VehicleMakeService u kojeg ćeš prebaciti metode koje trenutno imaš unutar 
+FetchData, FetchPages i FetchResults fileovima. Sve te metode koje idu na server trebaju biti u servisu. 
